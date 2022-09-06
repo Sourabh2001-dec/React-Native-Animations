@@ -16,7 +16,10 @@ function App() {
                     <Stack.Screen
                         key={screen.name}
                         name={screen.name}
-                        options={{ title: screen.displayName }}
+                        options={{
+                            title: screen.displayName,
+                            headerShown: false,
+                        }}
                         component={screen.component}
                     />
                 ))}
