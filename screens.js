@@ -1,3 +1,4 @@
+import Animated3dCarousel from "./src/Animated3Dcarousel/Animated3dCarousel";
 import AnimatedCarousel from "./src/AnimatedCarousel/AnimatedCarousel";
 import PhotoGallery from "./src/PhotoGallery/PhotoGallery";
 import ScrollItemAnimation from "./src/ScrollItemAnimation/ScrollItemAnimation";
@@ -23,6 +24,11 @@ const screens = [
         name: "AnimatedCarousel",
         displayName: "Animated Carousel",
         component: AnimatedCarousel,
+    },
+    {
+        name: "Animated3DCarousel",
+        displayName: "Animated 3D Carousel",
+        component: Animated3dCarousel,
     },
 ];
 
