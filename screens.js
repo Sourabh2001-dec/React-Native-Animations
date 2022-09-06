@@ -1,4 +1,5 @@
 import PhotoGallery from "./src/PhotoGallery/PhotoGallery";
+import ScrollItemAnimation from "./src/ScrollItemAnimation/ScrollItemAnimation";
 import TextAnimationScreen from "./src/TextAnimation/Screen";
 
 const screens = [
@@ -11,6 +12,11 @@ const screens = [
         name: "PhotoGallery",
         displayName: "Photo Gallery",
         component: PhotoGallery,
+    },
+    {
+        name: "ScrollItemAnimation",
+        displayName: "Scrolling Animation",
+        component: ScrollItemAnimation,
     },
 ];
 

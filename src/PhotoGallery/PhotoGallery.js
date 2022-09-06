@@ -78,9 +78,6 @@ const PhotoGallery = () => {
                 pagingEnabled
                 showsHorizontalScrollIndicator={false}
                 onMomentumScrollEnd={(ev) => {
-                    console.log(
-                        Math.floor(ev.nativeEvent.contentOffset.x / width)
-                    );
                     scrollToActiveIndex(
                         Math.floor(ev.nativeEvent.contentOffset.x / width),
                         false
