@@ -1,5 +1,7 @@
 import Animated3dCarousel from "./src/Animated3Dcarousel/Animated3dCarousel";
 import AnimatedCarousel from "./src/AnimatedCarousel/AnimatedCarousel";
+import LoadingAnimation from "./src/LoadingAnimations/LoadingAnimation";
+import MediumLikeSticky from "./src/MediumLikeSticky/MediumLikeSticky";
 import PhotoGallery from "./src/PhotoGallery/PhotoGallery";
 import ScrollItemAnimation from "./src/ScrollItemAnimation/ScrollItemAnimation";
 import TextAnimationScreen from "./src/TextAnimation/Screen";
@@ -29,6 +31,16 @@ const screens = [
         name: "Animated3DCarousel",
         displayName: "Animated 3D Carousel",
         component: Animated3dCarousel,
+    },
+    {
+        name: "MediumMobileArticle",
+        displayName: "Medium Mobile Article",
+        component: MediumLikeSticky,
+    },
+    {
+        name: "LoadingAnimation",
+        displayName: "Loading Animation",
+        component: LoadingAnimation,
     },
 ];
 
