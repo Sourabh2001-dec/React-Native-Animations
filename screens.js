@@ -5,6 +5,7 @@ import MediumLikeSticky from "./src/MediumLikeSticky/MediumLikeSticky";
 import PhotoGallery from "./src/PhotoGallery/PhotoGallery";
 import ScrollItemAnimation from "./src/ScrollItemAnimation/ScrollItemAnimation";
 import TextAnimationScreen from "./src/TextAnimation/Screen";
+import HashNodeFeedScreen from "./src/HashNodeFeed/Screen";
 
 const screens = [
     {
@@ -41,6 +42,14 @@ const screens = [
         name: "LoadingAnimation",
         displayName: "Loading Animation",
         component: LoadingAnimation,
+    },
+    {
+        name: "HashNodeFeed",
+        displayName: "Hash Node Feed",
+        component: HashNodeFeedScreen,
+        options: {
+            headerShown: true,
+        },
     },
 ];
 

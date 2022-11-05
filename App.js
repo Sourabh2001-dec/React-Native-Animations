@@ -19,6 +19,7 @@ function App() {
                         options={{
                             title: screen.displayName,
                             headerShown: false,
+                            ...screen.options,
                         }}
                         component={screen.component}
                     />
